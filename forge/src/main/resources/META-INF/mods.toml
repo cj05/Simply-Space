@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="Apache 2.0"
+issueTrackerURL="https://github.com/cj05/Simply-Space/issues"
+
+[[mods]] #mandatory
+modId="simply_space" #mandatory
+version="0.0.1" #mandatory ${version}
+displayName="Simply Space" #mandatory
+logoFile="icon.png" #optional
+description='''
+
+'''
+[[dependencies.simply_space]] #optional
+   modId="forge" #mandatory
+   mandatory=true #mandatory
+   versionRange="[40,)" #mandatory
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.simply_space]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.18.2]"
+   ordering="NONE"
+   side="BOTH"
